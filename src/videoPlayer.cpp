@@ -20,7 +20,7 @@ static void createImage(bool isResume)
     videoPlayer.img_obj = lv_img_create(lv_scr_act());
     lv_obj_set_size(videoPlayer.img_obj, 320, 240);
     img_ir_frame.header.always_zero = 0;
-    img_ir_frame.header.w = 320;
+    img_ir_frame.header.w = 111;
     img_ir_frame.header.h = 240;
     img_ir_frame.header.cf = LV_IMG_CF_TRUE_COLOR;
     img_ir_frame.data = IR_frame_buffer;
